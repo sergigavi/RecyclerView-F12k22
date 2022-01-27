@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         //aqui hago que funcione el boton para que me lleve al recycler
         cargarActivityRecycler()
     }
+    //asdfasdf
 
     private fun cargarActivityRecycler() {
 
