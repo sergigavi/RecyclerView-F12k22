@@ -1,4 +1,4 @@
-package es.sgv.recyclerview_f12k22
+package com.example.recyclerviewexamplo
 
 import org.junit.Test
 

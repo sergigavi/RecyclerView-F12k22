@@ -1,16 +1,17 @@
-package es.sgv.recyclerview_f12k22.Activities
+package com.example.recyclerviewexamplo.activities
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import es.sgv.recyclerview_f12k22.R
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import es.sgv.recyclerview_f12k22.Clases.PilotosProvider
-import es.sgv.recyclerview_f12k22.Adapter.PilotoAdapter
+import com.example.recyclerviewexamplo.PilotosProvider
+import com.example.recyclerviewexamplo.R
+import com.example.recyclerviewexamplo.adapter.PilotoAdapter
 import androidx.core.app.ActivityCompat.startActivityForResult
+import android.content.Intent
 import android.view.View
+import android.widget.Button
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         //aqui hago que funcione el boton para que me lleve al recycler
         cargarActivityRecycler()
     }
-    //asdfasdf
 
     private fun cargarActivityRecycler() {
 
@@ -32,4 +32,5 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
 }

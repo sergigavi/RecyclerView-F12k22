@@ -1,12 +1,12 @@
-package es.sgv.recyclerview_f12k22.Adapter
+package com.example.recyclerviewexamplo.adapter
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import es.sgv.recyclerview_f12k22.Clases.Piloto
-import es.sgv.recyclerview_f12k22.R
+import com.example.recyclerviewexamplo.Piloto
+import com.example.recyclerviewexamplo.R
 
 //encargado de coger los atributos de cada objeto y pintarlos
 

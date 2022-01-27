@@ -1,10 +1,10 @@
-package es.sgv.recyclerview_f12k22.Adapter
+package com.example.recyclerviewexamplo.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import es.sgv.recyclerview_f12k22.Clases.Piloto
-import es.sgv.recyclerview_f12k22.R
+import com.example.recyclerviewexamplo.Piloto
+import com.example.recyclerviewexamplo.R
 
 class PilotoAdapter(private val pilotos:List<Piloto>) : RecyclerView.Adapter<PilotoViewHolder>(){ //  : -> extends
 

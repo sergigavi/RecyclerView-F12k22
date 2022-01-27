@@ -1,4 +1,4 @@
-package es.sgv.recyclerview_f12k22.Clases
+package com.example.recyclerviewexamplo
 
 //permite crear un modelo de datos sencillo, es necesario pasarle minimo un atributo
 //ella se encarga de hacer los gets y los sets... y las funciones basicas de las clases
