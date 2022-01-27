@@ -1,12 +1,12 @@
-package com.example.recyclerviewexamplo.activities
+package es.sgv.recyclerview_f12k22.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclerviewexamplo.PilotosProvider
-import com.example.recyclerviewexamplo.R
-import com.example.recyclerviewexamplo.adapter.PilotoAdapter
+import es.sgv.recyclerview_f12k22.Clases.PilotosProvider
+import es.sgv.recyclerview_f12k22.R
+import es.sgv.recyclerview_f12k22.Adapter.PilotoAdapter
 
 class RecyclerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

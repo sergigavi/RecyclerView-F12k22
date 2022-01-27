@@ -1,17 +1,17 @@
-package com.example.recyclerviewexamplo.activities
+package es.sgv.recyclerview_f12k22.Activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import es.sgv.recyclerview_f12k22.R
+/*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclerviewexamplo.PilotosProvider
-import com.example.recyclerviewexamplo.R
-import com.example.recyclerviewexamplo.adapter.PilotoAdapter
+import es.sgv.recyclerview_f12k22.Clases.PilotosProvider
+import es.sgv.recyclerview_f12k22.Adapter.PilotoAdapter
 import androidx.core.app.ActivityCompat.startActivityForResult
-import android.content.Intent
-import android.view.View
-import android.widget.Button
-
+import android.view.View*/
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,5 +32,4 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
 }
