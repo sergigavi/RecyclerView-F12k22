@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerviewexamplo.Piloto
 import com.example.recyclerviewexamplo.R
-
-class PilotoAdapter(private val pilotos:List<Piloto>) : RecyclerView.Adapter<PilotoViewHolder>(){ //  : -> extends
+//el segundo parametro (el del onclicklistener) es una funcion lambda
+class PilotoAdapter(private val pilotos:List<Piloto>, private val onClickListener:(Piloto) -> Unit) : RecyclerView.Adapter<PilotoViewHolder>(){ //  : -> extends
 
     //aqui le pasamos el item, el layout que va a poder modificar
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PilotoViewHolder {
@@ -19,7 +19,7 @@ class PilotoAdapter(private val pilotos:List<Piloto>) : RecyclerView.Adapter<Pil
     override fun onBindViewHolder(holder: PilotoViewHolder, position: Int) {
         var item = pilotos[position]
 
-        holder.render(item)
+        holder.render(item, onClickListener) //aqui tambien le devolvemos la lambda del onclick
     }
 
     override fun getItemCount(): Int { //devuelve el tamaño del listado que tenemos
