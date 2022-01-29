@@ -40,7 +40,7 @@ class RecyclerActivity : AppCompatActivity() {
         binding.recyclerPiloto.layoutManager = manager //LinearLayoutManager(this) //si pusieramos varios layouts se podrian hacer varias columnas a la vez, un gridlayout
         binding.recyclerPiloto.adapter = PilotoAdapter(PilotosProvider.pilotos, {piloto ->  onItemSelected(piloto)}) //le pasamos la funcion lambda (entre llaves ya que es una lambda) //podriamos pasarle directamente it sin poner piloto ->, it es iterador, el contenido del piloto, pero lo pongo con la lambda de piloto para que no me lie
 
-        binding.recyclerPiloto.addItemDecoration(decoration) //decoration facilito que solo mete una linea divisoria
+        //binding.recyclerPiloto.addItemDecoration(decoration) //decoration facilito que solo mete una linea divisoria //esta comentado porque no me gusta como queda
         //podemos crear nuestros propios decorations personalizados
 
 
